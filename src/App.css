@@ -1,0 +1,80 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.item {
+  border: 2px solid rgb(30, 87, 30);
+  border-radius: 20px;
+  color: black;
+  height: 20px;
+  width: 100px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.item-select {
+  background-color: green;
+  color: white;
+}
+
+.date-list {
+  padding-top: 5px;
+  padding-bottom: 5px;
+  width: 10%;
+  height: 300px;
+}
+
+.time-list {
+  width: 10%;
+  height: 300px;
+  overflow-y: scroll;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.calendar  {
+  display: flex;
+}
+
+.book-time-button {
+  width: 200px;
+  height: 30px;
+}

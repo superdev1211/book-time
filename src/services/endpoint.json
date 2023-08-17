@@ -1,0 +1,4 @@
+{
+    "GET_AVAILABILITY": "/availability",
+    "BOOK_TIME": "/api/book/event"
+}
